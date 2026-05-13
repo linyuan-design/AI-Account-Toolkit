@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.5.0] - 2026-05-13
+
+### Added
+- all-in-one-register 子模块 (`packages/general/all-in-one-register`) - OpenAI, Grok, Tavily 注册机
+- chatgpt-auto-register 子模块 (`packages/openai/chatgpt-auto-register`) - 基于 Selenium 的全自动注册
+- openai-auto-register 子模块 (`packages/openai/openai-auto-register`) - 自动化注册流水线
+- gpt4free 子模块 (`packages/general/gpt4free`) - 多源逆向 API 聚合
+- open-proxy-ai 子模块 (`packages/general/open-proxy-ai`) - GPT-4o 免费逆向代理
+- free-unofficial-openai-api 子模块 (`packages/openai/free-unofficial-openai-api`) - 免费 OpenAI 兼容接口
+
 ## [2.4.2] - 2026-05-13
 
 ### Fixed
