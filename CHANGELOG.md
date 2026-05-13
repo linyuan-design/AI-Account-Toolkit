@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.4.1] - 2026-05-13
+
+### Fixed
+- 修复失效的子模块 URL (gemini-balance-do, exa-free, real-random-taxfree-address)
+- 移除已失效且冗余的 outlook-auto-register 子模块
+
 ## [2.4.0] - 2026-05-13
 
 ### Added

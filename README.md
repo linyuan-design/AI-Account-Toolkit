@@ -331,17 +331,11 @@ AI-Account-Toolkit/
 
 **使用指南**：[packages/email/hotmail-outlook-auto-register/README.md](packages/email/hotmail-outlook-auto-register/README.md)
 
-#### 35. outlook-auto-register - Outlook 邮箱注册工具集
-
-**功能**：基于 Outlook 邮箱 OAuth2 认证的批量自动注册工具集，支持多个目标平台共享同一套邮箱接码模块。
-
-**使用指南**：[packages/email/outlook-auto-register/README.md](packages/email/outlook-auto-register/README.md)
-
 ---
 
 ### 通用工具 (packages/general)
 
-#### 36. any-auto-register - 多平台账号自动注册工具
+#### 35. any-auto-register - 多平台账号自动注册工具
 
 **功能**：多平台账号自动注册工具，支持 ChatGPT、Cursor、Kiro 等多个平台.
 
@@ -349,13 +343,13 @@ AI-Account-Toolkit/
 
 **使用指南**：[packages/general/any-auto-register/README.md](packages/general/any-auto-register/README.md)
 
-#### 37. api-key-scraper - 多平台 API 密钥抓取工具
+#### 36. api-key-scraper - 多平台 API 密钥抓取工具
 
 **功能**：多平台 API 密钥抓取工具，支持从多个来源自动化获取 OpenAI、Gemini、Claude 的 API 密钥.
 
 **使用指南**：[packages/general/api-key-scraper/README.md](packages/general/api-key-scraper/README.md)
 
-#### 38. mregister - ChatGPT 注册机 Web UI
+#### 37. mregister - ChatGPT 注册机 Web UI
 
 **功能**：基于 FastAPI 的控制台，用来统一管理 chatgpt_register_v2 和 grok-register 两个注册脚本. 它把原本偏命令行的执行方式包装成可持久化、可排队、可下载结果、可通过 API 调用的任务系统.
 
@@ -363,19 +357,19 @@ AI-Account-Toolkit/
 
 **使用指南**：[packages/general/mregister/README.md](packages/general/mregister/README.md)
 
-#### 39. exa-free - Exa 免费使用工具
+#### 38. exa-free - Exa 免费使用工具
 
 **功能**：Exa 免费使用工具，提供 Exa 相关服务的免费访问.
 
 **使用指南**：[packages/general/exa-free/README.md](packages/general/exa-free/README.md)
 
-#### 40. real-random-taxfree-address - 真实随机免税地址生成
+#### 39. real-random-taxfree-address - 真实随机免税地址生成
 
 **功能**：生成真实的美国随机免税地址，用于账号注册等场景.
 
 **使用指南**：[packages/general/real-random-taxfree-address/README.md](packages/general/real-random-taxfree-address/README.md)
 
-#### 41. gopay-plus-auto - Gopay+ 自动化工具
+#### 40. gopay-plus-auto - Gopay+ 自动化工具
 
 **功能**：Gopay+ 平台自动化操作工具，支持批量支付、充值及账户维护.
 
@@ -408,7 +402,7 @@ find . -name "requirements.txt" -not -path "*/node_modules/*" -exec pip install 
 
 ### 3. 子模块列表
 
-本项目包含以下子模块（共 22 个）：
+本项目包含以下子模块（共 21 个）：
 
 | 分类 | 子模块 | 说明 |
 |------|--------|------|
@@ -427,7 +421,6 @@ find . -name "requirements.txt" -not -path "*/node_modules/*" -exec pip install 
 | | `packages/email/tempmail/` | 自托管临时邮箱服务 |
 | | `packages/email/ms-oauth2-api/` | 微软 OAuth2 邮件取件 API |
 | | `packages/email/hotmail-outlook-auto-register/` | Hotmail 自动注册 |
-| | `packages/email/outlook-auto-register/` | Outlook 邮箱注册工具集 |
 | **General** | `packages/general/any-auto-register/` | 多平台账号自动注册 |
 | | `packages/general/api-key-scraper/` | 多平台 API 密钥抓取 |
 | | `packages/general/mregister/` | ChatGPT 注册机 Web UI |
@@ -494,4 +487,4 @@ python packages/general/any-auto-register/main.py
 
 ---
 
-**License**: [MIT](LICENSE) | **更新日期**：2026-05-13 | **版本**：2.4.0
+**License**: [MIT](LICENSE) | **更新日期**：2026-05-13 | **版本**：2.4.1

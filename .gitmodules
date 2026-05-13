@@ -6,7 +6,7 @@
 	url = https://github.com/verssache/chatgpt-creator.git
 [submodule "packages/gemini/gemini-balance-do"]
 	path = packages/gemini/gemini-balance-do
-	url = https://github.com/zaunist/gemini-balance-do.git
+	url = https://github.com/76alex67/gemini-balance-do.git
 [submodule "packages/codex/codex-lb"]
 	path = packages/codex/codex-lb
 	url = https://github.com/Soju06/codex-lb.git
@@ -19,9 +19,6 @@
 [submodule "packages/codex/codex-register-fix"]
 	path = packages/codex/codex-register-fix
 	url = https://github.com/917017420/codex-register-fix.git
-[submodule "packages/email/outlook-auto-register"]
-	path = packages/email/outlook-auto-register
-	url = https://github.com/Asunfly/outlook-auto-register.git
 [submodule "packages/email/tempmail"]
 	path = packages/email/tempmail
 	url = https://github.com/123nhh/tempmail.git
@@ -30,7 +27,7 @@
 	url = https://github.com/kaima2022/ABCard.git
 [submodule "packages/general/exa-free"]
 	path = packages/general/exa-free
-	url = https://github.com/chengtx809/ExaFree.git
+	url = https://github.com/dabaige53/ExaFree.git
 [submodule "packages/email/ms-oauth2-api"]
 	path = packages/email/ms-oauth2-api
 	url = https://github.com/HChaoHui/msOauth2api.git
@@ -57,7 +54,7 @@
 	url = https://github.com/kschen202115/codex_register.git
 [submodule "packages/general/real-random-taxfree-address"]
 	path = packages/general/real-random-taxfree-address
-	url = https://github.com/hotbob011/real-random-taxfree-address.git
+	url = https://github.com/jietoushiren01-sys/real-random-taxfree-address.git
 [submodule "packages/grok/grok2api"]
 	path = packages/grok/grok2api
 	url = https://github.com/satangel2222/grok2api.git
